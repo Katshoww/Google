@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap');
+/*reset css*/
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body{
+    font: 1.5rem "Roboto",sans-serif;
+    margin: 0;
+}
+p, ul, li, h1, h2, h3, address{
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+*{
+    box-sizing: border-box;
+}
+:root{
+    --color-default-global: #3c4043;
+}
+header {
+    width: 100%;
+}
+main{
+    text-align: center;
+}
+main nav ul li a {
+    text-decoration:none;
+    color:var(--color-default-global);
+}
+main nav ul{
+    text-align: right;
+    cursor: pointer;
+}
+main nav ul li{
+    display: inline-block;
+    padding: 1rem;
+    
+}
+main nav ul li img{
+    width: 2.3rem;
+}
+.image{
+    margin-top: 10%;
+}
+#recherche{
+    margin-top: 3rem;
+    width: 58rem;
+    line-height: 4rem;
+    border-radius: 2rem;
+    border: .2rem solid rgba(158, 158, 158, 0.342);
+}
+
+.form #recherche {
+    padding: 0 .8rem;
+}
+.buttons{
+    padding-top: 3rem;
+    color:#3c4043;
+    margin-bottom: 3rem;
+    font: lighter;
+    font-size: large;
+}
+.buttons input:hover{
+    cursor: pointer;
+    border-width: .1rem ;
+    border-color: rgba(158, 158, 158, 0.418);
+    box-shadow: var(--color-default-global);
+    box-sizing: border-box;
+    border-radius: .3rem;
+}
+.buttons input{
+    padding: .8rem;
+    background-color: #dadce0;
+    border: .2rem solid transparent;
+    border-radius: .3rem;
+}
+main p{
+    font-size: small;
+    color: var(--color-default-global);
+}
+footer{
+    margin-top: 18rem;
+}
+
+footer,footer ul,footer li{
+    background-color: #dadce0;
+    text-decoration:none;
+}
+footer ul li a{
+    text-decoration:none;
+    color:var(--color-default-global)
+}
+footer ul li {
+    display: inline-block;
+    font-size: 1.4rem;
+    padding: 3rem 1.3rem;
+    border-bottom: .1rem solid #dadce0;
+}
+.footer-right {
+    float: right;
+    padding-left:80rem;
+}
+footer ul {
+    margin-top: 15rem ;
+    float: left;
+}
