@@ -38,11 +38,10 @@
                     </li>
                 </ul>
                 <div class="form" >  
-                    <form >
-                      <label for="recherche"></label>
-                      <input type="text" id="recherche" placeholder="Search Google or type URL" >
+                    <form action="https://www.google.com/search" role="search" method="GET">   
+                        <input type="search" class="tab" autocomplete="on" id="recherche" name="q"  autofocus>
                     </form>
-                  </div>
+                </div>
                   <div class= "buttons">  
                     <input type="submit" value="Recherche Google" id="RechercheGoogle" >
                     <input type="submit" value="J'ai De La Chance" id="JaiDeLaChance">
@@ -51,6 +50,22 @@
     </main>
 
     <footer>
+        <p>France</p>
+            <ul>
+                <li><a href="#">A propos</a></li><!--
+                --><li><a href="#">Publicités</a></li><!--
+                --><li><a href="#">Entreprise</a></li><!--
+                --><li><a href="#">Comment fonctionne la recherche Google ?</a></li>
+                </ul>
+                <ul class="footer-right">
+                <li><a href="#">Info consommateurs</a></li><!--
+                --><li><a href="#">Confidentialité</a></li><!--
+                --><li><a href="#">Conditions</a></li><!--
+                --><li><a href="#">Paramètres</a></li>
+            </ul>
+    </footer>
+
+    <!--<footer>
         <ul class="footer-left">
             <li>France</li>
             <li><a href="#">A propos</a></li>
@@ -64,7 +79,7 @@
             <li><a href="#">Conditions</a></li>
             <li><a href="#">Paramètres</a></li>
           </ul>
-    </footer>
+    </footer>-->
 
 </body>
 </html>
